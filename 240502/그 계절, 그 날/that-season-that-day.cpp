@@ -12,7 +12,7 @@ int main() {
         printf("Summer");
     else if(m>=9 && m<=11)
         printf("Fall");
-    else if(m>=12 && m<=1)
+    else if(m==12 || m==1)
         printf("Winter");
     else if(m==2 && d<=28){
         printf("Winter");
