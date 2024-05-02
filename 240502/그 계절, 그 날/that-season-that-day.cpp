@@ -18,7 +18,7 @@ int main() {
         printf("Winter");
     }
     else if(y%4==0 && m==2 && d==29){
-        if(y%100!=0 && y%400==0)
+        if(y%100!=0 || y%400==0)
             printf("Winter");
         else
             printf("-1");
